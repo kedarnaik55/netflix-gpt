@@ -1,9 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Body from "./components/Body";
+
 
 const AppLayout = () => {
   return (
-    <div className="text-3xl font-bold text-green-800"> Hello Welcome to NetflixGPT</div>
+    <Body/>
   );
 };
 
